@@ -55,7 +55,7 @@ section .section-title{
     transition:transform .2s ease-in-out;
 }
 #what-we-do .card .block-1:before{
-    content: "\f0e7";
+    content: "\f108";
 }
 #what-we-do .card .block-2:before{
     content: "\f0eb";
@@ -64,13 +64,13 @@ section .section-title{
     content: "\f00c";
 }
 #what-we-do .card .block-4:before{
-    content: "\f209";
+    content: "\f212";
 }
 #what-we-do .card .block-5:before{
-    content: "\f0a1";
+    content: "\f06e";
 }
 #what-we-do .card .block-6:before{
-    content: "\f218";
+    content: "\f23e";
 }
 #what-we-do .card:hover .card-block:before{
 	-webkit-transform: rotate(360deg);
