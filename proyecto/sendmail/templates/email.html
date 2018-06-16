@@ -14,21 +14,20 @@
     <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{% static 'css/blog-home.css'%}" rel="stylesheet">
 
  </head>
+         {% include "navbar.html" %}
     <body>
-     {% include "navbar.html" %}
-        <div>
-        <h1>Consulta</h1>
-            <form method="post">
-                {% csrf_token %}
-                {{ form.as_p }}
-                    <div class="form-actions">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </div>
-            </form>
-        </div>
+        <h2 class="section-title mb-2 h1">Consulta</h2>
+        <form method="post">
+              {% csrf_token %}
+              {{ form.as_p }}
+               <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+               </div>
+
+        </form>
+       {% include "footer.html" %}
     </body>
 </html>
 
