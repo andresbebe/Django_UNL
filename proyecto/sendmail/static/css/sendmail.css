@@ -1,0 +1,19 @@
+section{
+	background:#eee !important;
+}
+
+.sendmail {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  /* IMPORTANTE */
+  text-align: left;
+}
+
+section .section-title{
+	text-align:center;
+	color:#007b5e;
+	margin-bottom:50px;
+	text-transform:uppercase;
+	padding-top: 60px;
+

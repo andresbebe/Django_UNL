@@ -12,7 +12,7 @@ section .section-title{
 	text-transform:uppercase;
 }
 #what-we-do{
-	background:#ffffff;
+	background:#eee !important;
 }
 #what-we-do .card{
 	padding: 1rem!important;

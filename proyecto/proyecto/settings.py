@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'web_page_app',
     'sendmail',
+    'bootstrapform'
 ]
 
 MIDDLEWARE = [
