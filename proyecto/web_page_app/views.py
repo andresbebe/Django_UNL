@@ -12,6 +12,7 @@ def index(request):
 def quienes(request):
     return render(request,'quienes.html')
 
+
 def servicios(request):
     return render(request,'servicios.html')
 

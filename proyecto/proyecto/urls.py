@@ -26,5 +26,5 @@ urlpatterns = [
     url(r'^sendmail/', include('sendmail.urls')),
     url(r'^quienes/',views.quienes, name='quienes'),
     url(r'^servicios/',views.servicios, name='servicios'),
-    
+    url(r'^blog/', include('blog.urls')),
 ]
